@@ -1,0 +1,27 @@
+{
+    "name": "express-twa-guard",
+    "description": "Middleware for validating user data from Telegram Mini Apps within Express.js applications.",
+    "version": "1.0.0",
+    "main": "./dist/index.js",
+    "module": "./dist/index.mjs",
+    "types": "./dist/index.d.ts",
+    "scripts": {
+        "test": "mocha --reporter spec --require ts-node/register src/**",
+        "build": "tsup src/index.ts --format cjs,esm --dts",
+        "ci": "npm run test && npm run build"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/express": "^4.17.21",
+        "@types/mocha": "^10.0.6",
+        "@types/node": "^20.12.7",
+        "eslint": "^9.1.0",
+        "express": "^4.19.2",
+        "mocha": "^10.4.0",
+        "npm-version": "^1.1.0",
+        "ts-node": "^10.9.2",
+        "tsup": "^8.0.2",
+        "typescript": "^5.4.5"
+    }
+}

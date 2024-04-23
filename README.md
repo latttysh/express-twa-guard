@@ -7,7 +7,7 @@
 Install `TwaGuardMiddleware` via npm:
 
 ```
-$ npm install twa-guard-middleware
+$ npm install express-twa-guard
 ```
 
 ## Usage

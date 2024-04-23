@@ -1,7 +1,7 @@
 {
     "name": "express-twa-guard",
     "description": "Middleware for validating user data from Telegram Mini Apps within Express.js applications.",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "keywords": [
         "telegram",
         "tma",

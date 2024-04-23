@@ -14,7 +14,7 @@ $ npm install express-twa-guard
 
 ```typescript
 import express, { Request, Response } from 'express';
-import { TwaGuardMiddleware, TwaGuardOptions } from 'twa-guard-middleware';
+import { TwaGuardMiddleware, CreateTmaMiddlewareProps } from 'twa-guard-middleware';
 
 const app = express();
 

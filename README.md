@@ -14,11 +14,11 @@ $ npm install express-twa-guard
 
 ```typescript
 import express, { Request, Response } from 'express';
-import { TwaGuardMiddleware, CreateTmaMiddlewareProps } from 'twa-guard-middleware';
+import { TwaGuardMiddleware } from 'express-twa-guard';
 
 const app = express();
 
-const twaGuardOptions: CreateTmaMiddlewareProps = {
+const twaGuardOptions = {
     telegramBotToken: 'YOUR_TELEGRAM_BOT_TOKEN',
 };
 
